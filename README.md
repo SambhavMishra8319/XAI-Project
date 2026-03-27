@@ -48,7 +48,7 @@ default (0 or 1)
 ```
 #### 2. Model Training
 Model used:
-RandomForestClassifier
+XG Boost
 Trained separately for each imbalance level
 
 ### 3. Explanation Generation
@@ -133,14 +133,6 @@ python generate_explanations_fixed.py
 ```
 python compute_sra_final.py
 ```
-### Key Implementation Notes
-Ensure:
-
-default column exists
-
-ID column is removed
-
-Convert all values to numeric before SRA computation
 
 Use sufficient runs for reliable stability:
 ```
@@ -158,7 +150,7 @@ Explanation stability is strongly affected by class imbalance
 Balanced datasets produce more reliable explanations
 SHAP provides more consistent explanations than LIME
 
-### Author
+### Team Members
 Bhoomika (23bcs030)
 
 Sambhav Mishra (23bds050)
