@@ -1,0 +1,12 @@
+# Requirements for DS357 Project Replication
+# Pin versions to ensure reproducibility
+
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+xgboost==2.0.3
+imbalanced-learn==0.12.3
+lime==0.2.0.1
+shap==0.45.1
+matplotlib==3.8.4
+scipy==1.13.0

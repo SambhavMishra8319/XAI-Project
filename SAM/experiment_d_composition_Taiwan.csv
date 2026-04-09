@@ -1,0 +1,61 @@
+dataset,condition,condition_label,default_rate,shap_cv,shap_sra
+Taiwan,full,Full training set (paper baseline),0.01,0.8490404364535388,33.02764434141329
+Taiwan,full,Full training set (paper baseline),0.025,0.8413388269717138,29.887266943112948
+Taiwan,full,Full training set (paper baseline),0.05,0.8197555485050457,30.077786819085148
+Taiwan,full,Full training set (paper baseline),0.1,0.768179897990849,27.54603030849882
+Taiwan,full,Full training set (paper baseline),0.15,0.7473870639531036,26.80632626416752
+Taiwan,full,Full training set (paper baseline),0.2,0.7203958147470629,25.057920350098787
+Taiwan,full,Full training set (paper baseline),0.25,0.7163252301066596,23.718491439074008
+Taiwan,full,Full training set (paper baseline),0.3,0.6918086886175079,23.641399231501815
+Taiwan,full,Full training set (paper baseline),0.35,0.6786385595213555,22.710657562427098
+Taiwan,full,Full training set (paper baseline),0.4,0.663037462968802,21.251187478649005
+Taiwan,full,Full training set (paper baseline),0.45,0.6550947577959721,21.44914069600421
+Taiwan,full,Full training set (paper baseline),0.5,0.6490839619894716,21.18358423765444
+Taiwan,random,"Random subset (n=200, same imbalance)",0.01,0.8467019140331442,33.14186048898717
+Taiwan,random,"Random subset (n=200, same imbalance)",0.025,0.8403508594412185,29.96976145908139
+Taiwan,random,"Random subset (n=200, same imbalance)",0.05,0.8085149981989778,29.95956513784629
+Taiwan,random,"Random subset (n=200, same imbalance)",0.1,0.7578948769288992,27.69355052544754
+Taiwan,random,"Random subset (n=200, same imbalance)",0.15,0.7528873356990028,26.694600105059944
+Taiwan,random,"Random subset (n=200, same imbalance)",0.2,0.7263937260591876,25.274992679792657
+Taiwan,random,"Random subset (n=200, same imbalance)",0.25,0.7092973630834979,23.68581482860756
+Taiwan,random,"Random subset (n=200, same imbalance)",0.3,0.6882711517839968,23.399126742179853
+Taiwan,random,"Random subset (n=200, same imbalance)",0.35,0.6748990269396633,22.594003859609806
+Taiwan,random,"Random subset (n=200, same imbalance)",0.4,0.6606150537181885,21.227520776098764
+Taiwan,random,"Random subset (n=200, same imbalance)",0.45,0.6593198770329493,21.020542276392305
+Taiwan,random,"Random subset (n=200, same imbalance)",0.5,0.6487445505356146,21.120722384662596
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.01,0.8039360179369635,33.98944549720842
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.025,0.7810010029672151,31.120055437304373
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.05,0.7710724369748406,31.208918118736236
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.1,0.7270362279992694,28.279288444738746
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.15,0.7266259754707162,26.181953314038427
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.2,0.710878613472127,24.658755092427846
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.25,0.6994329009623228,23.409835553747367
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.3,0.6734525653623944,23.542102934870236
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.35,0.6676144208750114,22.236750419948983
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.4,0.6548858384462182,21.026431629865165
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.45,0.6585842803155678,21.097048508841866
+Taiwan,balanced,"Balanced subset (n=200, 50/50)",0.5,0.6459334263000552,21.157730591006576
+Taiwan,minority,"Minority only (defaults, n≤200)",0.01,0.7817529546397256,32.08208500630332
+Taiwan,minority,"Minority only (defaults, n≤200)",0.025,0.7606545772952378,29.663343008338636
+Taiwan,minority,"Minority only (defaults, n≤200)",0.05,0.7430298428507336,30.084742166803622
+Taiwan,minority,"Minority only (defaults, n≤200)",0.1,0.7059753839479807,27.052461674815742
+Taiwan,minority,"Minority only (defaults, n≤200)",0.15,0.6971730557913135,25.21072904623369
+Taiwan,minority,"Minority only (defaults, n≤200)",0.2,0.6911861921400626,23.230744193448402
+Taiwan,minority,"Minority only (defaults, n≤200)",0.25,0.6797309061932221,22.109460736019415
+Taiwan,minority,"Minority only (defaults, n≤200)",0.3,0.6548212565427092,21.57598197704061
+Taiwan,minority,"Minority only (defaults, n≤200)",0.35,0.6455084410753095,20.144086722038047
+Taiwan,minority,"Minority only (defaults, n≤200)",0.4,0.6399422833380962,19.910642971203632
+Taiwan,minority,"Minority only (defaults, n≤200)",0.45,0.6395682127635385,19.80659204454307
+Taiwan,minority,"Minority only (defaults, n≤200)",0.5,0.6296622262240035,19.477101882508823
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.01,0.8575292906961789,32.923398959562356
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.025,0.8450109973127604,30.028401838660326
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.05,0.8225387665687632,29.820612069197363
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.1,0.7738613734389018,27.760156997632503
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.15,0.7728374759255848,26.418625724707976
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.2,0.7576846069949561,24.738339716443594
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.25,0.7380967057439446,24.35318945276347
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.3,0.7247559413609831,22.91509589541456
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.35,0.710410630953708,22.588093413372402
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.4,0.6896003351553451,21.309958976067136
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.45,0.7021479136806803,21.305177204770505
+Taiwan,majority,"Majority only (non-defaults, n=200)",0.5,0.6885369702114794,20.966431380145213
